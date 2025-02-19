@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #ff9f0d;
+    --secondary-color: #9e9e9e;
+    --other-color: #212121;
+    --text-color: #fff;
+    --background-color: #111111;
+    --big-font: 4.5rem;
+    --h2-font: 2.5rem;
+    --p-font: 1.1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: var(--other-color);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: var(--big-font);
+    text-align: center;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: var(--h2-font);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--secondary-color);
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #e68902;
+}
+
+.small-text {
+    text-align: center;
+    font-size: var(--p-font);
+    color: var(--secondary-color);
+}

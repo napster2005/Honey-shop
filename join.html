@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Honey Shop Team</title>
+    <link rel="stylesheet" href="join.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Join Our Honey Shop Team</h1>
+        <h2>Become a Honey Seller</h2>
+        
+        <form action="app.html" method="get" class="forum-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+
+            <label for="business-name">Business Name:</label>
+            <input type="text" id="business-name" name="business-name" placeholder="Your Business Name" required>
+
+            <label for="products">Honey Products You Offer:</label>
+            <textarea id="products" name="products" placeholder="Describe the honey products you sell..." rows="4" required></textarea>
+
+            <label for="experience">Experience in Honey Selling:</label>
+            <select id="experience" name="experience" required>
+                <option value="" disabled selected>Select Your Experience</option>
+                <option value="1">Less than 1 year</option>
+                <option value="2-3">2-3 years</option>
+                <option value="4-5">4-5 years</option>
+                <option value="5+">More than 5 years</option>
+            </select>
+
+            <label for="message">Why Do You Want to Join Us?</label>
+            <textarea id="message" name="message" placeholder="Write a brief message..." rows="4" required></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <p class="small-text">We will review your application and get back to you within 3-5 business days.</p>
+    </div>
+</body>
+</html>
